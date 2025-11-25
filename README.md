@@ -17,27 +17,27 @@ Each week’s assignments and problem sets are organized into separate folders t
 /week9  
 /final
 
-### 🎯 Purpose
+## 🎯 Purpose
 
 This repo documents my progress throughout the course and helps me keep track of every project I complete.
 It also works as a portfolio where I can come back to older work and see how my skills level up over time.
 
-#### 🚀 How to Run
+## 🚀 How to Run
 
-C Programs
+### C Programs
 
 make filename
 ./filename
 
-Python
+### Python
 
 python3 file.py
 
-HTML/CSS/JS
+### HTML/CSS/JS
 
 Open index.html in your browser.
 
-##### ✔️ Progress
+## ✔️ Progress
 
 Week 0 ✅
 
@@ -62,7 +62,7 @@ Week 9 ⬜
 Final Project ⬜
 
 
-###### 📝 Notes
+## 📝 Notes
 
 Projects will be added and updated over time.
 
