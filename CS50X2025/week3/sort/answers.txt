@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: i checked it with time ./sort1 reversed50000 and compared it with other algorithems and it had the least speed
+
+sort2 uses: merge sort
+
+How do you know?: i checked it with time ./sort2 random5000.txt and random50000.txt and it had the most speed
+
+sort3 uses: selection sort
+
+How do you know?: when i checked all the algorithems and checked the time at running files it had a speed/ real time between sort1 and sort2 so i think its selection sort

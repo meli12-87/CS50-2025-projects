@@ -1,0 +1,2 @@
+meta, link, script, nav, div, a, i, b, header, section, img, br, footer
+i tried to make a function for the button using JavaScript
