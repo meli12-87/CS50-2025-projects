@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mel's Todo List</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1><i class="fas fa-tasks"></i> My Todo List</h1>
+            <p class="subtitle">Suggested subjects:</p>
+            <p>• Grocery List</p>
+            <p>• Daily Tasks</p>
+            <p>• Reminders</p>
+        </header>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="taskInput" 
+                    placeholder="What needs to be done?"
+                    maxlength="100"
+                >
+                <button id="addBtn" class="btn-primary">
+                    <i class="fas fa-plus"></i> Add Task
+                </button>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="active">Active</button>
+            <button class="filter-btn" data-filter="completed">Completed</button>
+        </div>
+
+        <!-- Task List -->
+        <ul id="taskList" class="tasklist2">
+            <!-- Tasks will appear here dynamically -->
+            <li class="empty-state">
+                <i class="fas fa-clipboard-list"></i>
+                <p>No tasks yet. You can add your first task!</p>
+            </li>
+        </ul>
+
+        <!-- Stats -->
+        <div class="thisisstats">
+            <span id="taskCounter">0 tasks</span>
+            <button id="clearCompleted" class="btn-text">
+                <i class="fas fa-trash"></i> Clear Completed
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made By Meli Falahian For CS50X's Final Project!</p>
+        </footer>
+    </div>
+
+    <!-- Coffee Bean Decorations -->
+    <div class="coffee-bean"></div>
+    <div class="coffee-bean"></div>
+    <div class="coffee-bean"></div>
+    <div class="coffee-bean"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
